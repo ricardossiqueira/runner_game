@@ -2,7 +2,8 @@ import pygame
 from sys import exit
 from random import choice
 
-from classes import Player, Obstacle
+from classes.Player import Player
+from classes.Obstacle import Obstacle
 from functions.helpers import collision_sprite, display_score, display_text
 
 pygame.init()
